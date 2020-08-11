@@ -20,11 +20,17 @@
 
 영구 반영 시 /etc/fstab파일의 swap 아래와 같이 수정  
 
-    vi /etc/fstab  
+    [root@masternode ~]# cat /etc/fstab  
+    \#  
+    \# /etc/fstab  
+    \# Created by anaconda on Tue Aug 11 03:59:56 2020  
+    \#  
+    \# Accessible filesystems, by reference, are maintained under '/dev/disk'  
+    \# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info  
+    \#  
     /dev/mapper/centos-root /                       xfs     defaults        0 0  
     UUID=058a296e-b6d9-4aca-addb-846a907271f1 /boot                   xfs     defaults        0 0  
     \# /dev/mapper/centos-swap swap                    swap    defaults        0 0  
-
   
   
 ## kubeadm, kubelet, kubectl 설치  
