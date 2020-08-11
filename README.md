@@ -127,7 +127,18 @@ sudo yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
 
 sudo systemctl enable --now kubelet
 
-## 
+## Cluster Join 토큰 생성
+\# MasterNode수행
+kubeadm token create --print-join-command
+
+[root@masternode ~]# kubeadm token create --print-join-command
+W0811 19:11:43.681102   18097 configset.go:202] WARNING: kubeadm cannot validate component configs for API groups [kubelet.config.k8s.io kubeproxy.config.k8s.io]
+kubeadm join 192.168.0.51:6443 --token qr9j7j.5f4kz8tp5h5oui3o     --discovery-token-ca-cert-hash sha256:f012896aa07bf85002d154f777f0c86eb2008628388a746c9bad75049329a7e2
+
+\# 결과값 workernode실행
+kubeadm join 192.168.0.51:6443 --token qr9j7j.5f4kz8tp5h5oui3o     --discovery-token-ca-cert-hash sha256:f012896aa07bf85002d154f777f0c86eb2008628388a746c9bad75049329a7e2
+
+
 
 ## kubectl 단축어(k)지정
 yum install -y bash-completion # auto complete를 위한 lib설치
