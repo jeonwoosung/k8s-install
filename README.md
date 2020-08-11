@@ -18,7 +18,7 @@
     echo "192.168.0.51 masternode" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
     swapoff -a # 미적용시 MasterNode설치 오류 발생  
 영구 반영 시 /etc/fstab파일의 swap 아래와 같이 수정  
-    \[root@masternode ~]# cat /etc/fstab  
+    vi /etc/fstab  
     \#  
     \# /etc/fstab  
     \# Created by anaconda on Tue Aug 11 03:59:56 2020  
