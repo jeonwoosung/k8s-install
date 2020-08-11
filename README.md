@@ -19,13 +19,6 @@
     swapoff -a # 미적용시 MasterNode설치 오류 발생  
 영구 반영 시 /etc/fstab파일의 swap 아래와 같이 수정  
     vi /etc/fstab  
-    \#  
-    \# /etc/fstab  
-    \# Created by anaconda on Tue Aug 11 03:59:56 2020  
-    \#  
-    \# Accessible filesystems, by reference, are maintained under '/dev/disk'  
-    \# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info  
-    \#  
     /dev/mapper/centos-root /                       xfs     defaults        0 0  
     UUID=058a296e-b6d9-4aca-addb-846a907271f1 /boot                   xfs     defaults        0 0  
     \# /dev/mapper/centos-swap swap                    swap    defaults        0 0  
