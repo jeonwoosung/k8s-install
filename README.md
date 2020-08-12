@@ -1,6 +1,9 @@
 # k8s-install  
+## 시스템 구성
+Master 1node(masternode)
+Worker 2node(workernode01, workernode02)
   
-# MasterNode  
+# 1. MasterNode  
 ## Docker Install  
     yum install -y docker  
     service docker start  
@@ -15,22 +18,25 @@
   
 ## OS설정 변경  
     service firewalld stop # 미적용시 workernode설치 시 masternode api서버 접속(6443 port)불가로 설치 불가  
+    chkconfig firewalld off 
     echo "192.168.0.51 masternode" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
+    echo "192.168.0.55 workernode01" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
+    echo "192.168.0.56 workernode02" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
     swapoff -a # 미적용시 MasterNode설치 오류 발생  
 
 영구 반영 시 /etc/fstab파일의 swap 아래와 같이 수정  
 
     [root@masternode ~]# cat /etc/fstab  
-    \#  
-    \# /etc/fstab  
-    \# Created by anaconda on Tue Aug 11 03:59:56 2020  
-    \#  
-    \# Accessible filesystems, by reference, are maintained under '/dev/disk'  
-    \# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info  
-    \#  
+    #  
+    # /etc/fstab  
+    # Created by anaconda on Tue Aug 11 03:59:56 2020  
+    #  
+    # Accessible filesystems, by reference, are maintained under '/dev/disk'  
+    # See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info  
+    #  
     /dev/mapper/centos-root /                       xfs     defaults        0 0  
     UUID=058a296e-b6d9-4aca-addb-846a907271f1 /boot                   xfs     defaults        0 0  
-    \# /dev/mapper/centos-swap swap                    swap    defaults        0 0  
+    # /dev/mapper/centos-swap swap                    swap    defaults        0 0  
   
   
 ## kubeadm, kubelet, kubectl 설치  
@@ -45,7 +51,7 @@
     exclude=kubelet kubeadm kubectl  
     EOF  
   
-    \# Set SELinux in permissive mode (effectively disabling it)  
+    # Set SELinux in permissive mode (effectively disabling it)  
     sudo setenforce 0  
     sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config  
       
@@ -77,7 +83,7 @@
     . ~/.bash_profile  
   
   
-# WorkerNode  
+# 2. WorkerNode  
   
 ## Docker Install  
     yum install -y docker  
@@ -93,22 +99,23 @@
   
 ## OS설정 변경  
     service firewalld stop # 미적용시 workernode설치 시 masternode api서버 접속(6443 port)불가로 설치 불가  
+    chkconfig firewalld off     
     echo "192.168.0.51 masternode" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
     swapoff -a # 미적용시 MasterNode설치 오류 발생  
 
 영구 반영 시 /etc/fstab파일의 swap 아래와 같이 수정  
 
     [root@masternode ~]# cat /etc/fstab  
-    \#  
-    \# /etc/fstab  
-    \# Created by anaconda on Tue Aug 11 03:59:56 2020  
-    \#  
-    \# Accessible filesystems, by reference, are maintained under '/dev/disk'  
-    \# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info  
-    \#  
+    #  
+    # /etc/fstab  
+    # Created by anaconda on Tue Aug 11 03:59:56 2020  
+    #  
+    # Accessible filesystems, by reference, are maintained under '/dev/disk'  
+    # See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info  
+    #  
     /dev/mapper/centos-root /                       xfs     defaults        0 0  
     UUID=058a296e-b6d9-4aca-addb-846a907271f1 /boot                   xfs     defaults        0 0  
-    \# /dev/mapper/centos-swap swap                    swap    defaults        0 0  
+    # /dev/mapper/centos-swap swap                    swap    defaults        0 0  
 
 
 ## kubeadm, kubelet, kubectl 설치  
@@ -123,7 +130,7 @@
     exclude=kubelet kubeadm kubectl  
     EOF  
       
-    \# Set SELinux in permissive mode (effectively disabling it)  
+    # Set SELinux in permissive mode (effectively disabling it)  
     sudo setenforce 0  
     sudo sed -i 's/^SELINUX=enforcing$/SELINUX=permissive/' /etc/selinux/config  
       
@@ -132,14 +139,14 @@
     sudo systemctl enable --now kubelet  
   
 ## Cluster Join 토큰 생성  
-    \# MasterNode수행  
+    # MasterNode수행  
     kubeadm token create --print-join-command  
       
     [root@masternode ~]# kubeadm token create --print-join-command  
     W0811 19:11:43.681102   18097 configset.go:202] WARNING: kubeadm cannot validate component configs for API groups [kubelet.config.k8s.io kubeproxy.config.k8s.io]  
     kubeadm join 192.168.0.51:6443 --token qr9j7j.5f4kz8tp5h5oui3o     --discovery-token-ca-cert-hash sha256:f012896aa07bf85002d154f777f0c86eb2008628388a746c9bad75049329a7e2  
       
-    \# 결과값 workernode실행  
+    # 결과값 workernode실행  
     kubeadm join 192.168.0.51:6443 --token qr9j7j.5f4kz8tp5h5oui3o     --discovery-token-ca-cert-hash sha256:f012896aa07bf85002d154f777f0c86eb2008628388a746c9bad75049329a7e2  
   
   
