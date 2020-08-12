@@ -1,6 +1,9 @@
 # k8s-install  
+## 시스템 구성
+Master 1node(masternode)
+Worker 2node(workernode01, workernode02)
   
-# MasterNode  
+# 1. MasterNode  
 ## Docker Install  
     yum install -y docker  
     service docker start  
@@ -79,7 +82,7 @@
     . ~/.bash_profile  
   
   
-# WorkerNode  
+# 2. WorkerNode  
   
 ## Docker Install  
     yum install -y docker  
