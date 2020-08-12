@@ -16,6 +16,8 @@
 ## OS설정 변경  
     service firewalld stop # 미적용시 workernode설치 시 masternode api서버 접속(6443 port)불가로 설치 불가  
     echo "192.168.0.51 masternode" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
+    echo "192.168.0.55 workernode01" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
+    echo "192.168.0.56 workernode02" >> /etc/hosts # 미적용시 MasterNode설치 오류 발생  
     swapoff -a # 미적용시 MasterNode설치 오류 발생  
 
 영구 반영 시 /etc/fstab파일의 swap 아래와 같이 수정  
