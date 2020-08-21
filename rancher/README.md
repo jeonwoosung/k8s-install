@@ -17,3 +17,6 @@ Cert-Manager설치 필수(미 설치 시 rancher설치 불가)
     helm install rancher rancher-stable/rancher \
       --namespace cattle-system \
       --set hostname=rancher.oplab.co.kr
+
+### Rancher Uninstall
+ helm uninstall  rancher rancher-stable/rancher  --namespace cattle-system
