@@ -1,3 +1,7 @@
-virt-clone --original master \
---name worker01 \
---file /data/vmimage/worker01.img
+virt-clone --original CentOS7 \
+--name noah \
+--file /data/vmimage/noah.img
+
+virt-clone --original CentOS7 \
+--name markers \
+--file /data/vmimage/markers.img

@@ -1,0 +1,29 @@
+
+Step 1. Setup Yum repository
+Execute the following command to enable MySQL yum repository on CentOS:
+
+    rpm -Uvh https://repo.mysql.com/mysql80-community-release-el7-3.noarch.rpm
+Step 2. Install MySQL 8 Community Server
+Since the MySQL yum repository has multiple repositories configuration for multiple MySQL versions, you need to disable all repositories in mysql repo file:
+
+    sed -i 's/enabled=1/enabled=0/' /etc/yum.repos.d/mysql-community.repo
+And execute the following command to install MySQL 8:
+
+    yum --enablerepo=mysql80-community install mysql-community-server
+Step 3. Start MySQL Service
+Use this command to start mysql service:
+
+    service mysqld start
+Step 4. Show the default password for root user
+When you install MySQL 8.0, the root user account is granted a temporary password. To show the password of the root user account, you use this command:
+
+    grep "A temporary password" /var/log/mysqld.log
+Here is the output:
+
+[Note] A temporary password is generated for root@localhost: hjkygMukj5+t783
+
+
+     root@localhost: d)Iwg)_,K70A
+
+
+     ALTER USER 'root'@'localhost' IDENTIFIED BY 'qwerASDF12#$';
