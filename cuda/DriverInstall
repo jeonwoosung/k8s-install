@@ -1,0 +1,52 @@
+sudo yum-config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/rhel7/x86_64/cuda-rhel7.repo
+sudo yum clean all
+sudo yum -y install nvidia-driver-latest-dkms cuda
+sudo yum -y install cuda-drivers
+
+
+nvdia driver설치하기
+
+$ yum update
+$ yum install kernel-devel kernel-headers gcc make
+$ yum install "kernel-devel-uname-r == $(uname -r)"
+
+
+nouveau 을 활성화시키면 충돌가능성이 있기에 blacklist해준다.
+$ echo 'blacklist nouveau' >> /etc/modprobe.d/blacklist.conf
+$ dracut /boot/initramfs-$(uname -r).img $(uname -r) --force
+$ reboot
+
+파일다운
+$ wget http://kr.download.nvidia.com/XFree86/Linux-x86_64/390.59/NVIDIA-Linux-x86_64-390.59.run
+
+이것저것 뜨는데 다 ok, yes해줌 된다.
+$ bash NVIDIA-Linux-x86_64-390.59.run
+
+1. WARNING: nvidia-installer was forced to guess the X library path '/usr/lib64' and X
+           module path '/usr/lib64/xorg/modules'; these paths were not queryable from the
+           system.  If X fails to find the NVIDIA X driver module, please install the
+           `pkg-config` utility and the X.Org SDK/development package for your distribution
+           and reinstall the driver
+OK
+2. Install NVIDIA's 32-bit compatibility libraries?
+YES
+
+3. Would you like to run the nvidia-xconfig utility to automatically update your X
+  configuration file so that the NVIDIA X driver will be used when you restart X?  Any
+  pre-existing X configuration file will be backed up.
+YES
+
+4.  Your X configuration file has been successfully updated.  Installation of the NVIDIA
+  Accelerated Graphics Driver for Linux-x86_64 (version: 390.59) is now complete.
+OK
+
+
+
+$ nvidia-smi
+
+
+nvidia-docker설치
+https://lascrea.tistory.com/147
+
+GPU Passing through
+https://www.server-world.info/en/note?os=CentOS_7&p=kvm&f=10

@@ -9,7 +9,7 @@ Since the MySQL yum repository has multiple repositories configuration for multi
     sed -i 's/enabled=1/enabled=0/' /etc/yum.repos.d/mysql-community.repo
 And execute the following command to install MySQL 8:
 
-    yum --enablerepo=mysql80-community install mysql-community-server
+    yum --enablerepo=mysql80-community install -y mysql-community-server
 Step 3. Start MySQL Service
 Use this command to start mysql service:
 
