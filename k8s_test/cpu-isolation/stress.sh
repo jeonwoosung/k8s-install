@@ -1,3 +1,3 @@
 #!/bin/sh
 
-nohup cat /dev/urandom > /dev/null &
+cat /dev/urandom > /dev/null
