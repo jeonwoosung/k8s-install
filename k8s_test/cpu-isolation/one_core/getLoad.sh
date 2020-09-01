@@ -8,4 +8,4 @@
 
 
 PID=`cat pid`
-top -b -n 5 -d 10.0 -p $PID |grep $PID
+top -b -n 7 -d 10.0 -p $PID |grep $PID
