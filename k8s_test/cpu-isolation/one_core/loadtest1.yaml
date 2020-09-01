@@ -3,8 +3,8 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: loadtest1
-  name: loadtest1
+    run: loadtest1_1core
+  name: loadtest1_1core
 spec:
   containers:
   - args:
@@ -17,6 +17,6 @@ spec:
         cpu: "1"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
-  nodeName: worker01
+  nodeName: worker02
 
 status: {}

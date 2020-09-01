@@ -1,1 +1,1 @@
-nohup kubectl exec -it loadtest1 /stress.sh &
+nohup kubectl exec -it loadtest1_1core /stress.sh &
