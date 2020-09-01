@@ -23,8 +23,8 @@ pcnt=`p.sh`
 echo $pcnt
 while [ $pcnt -ne 2 ]
 do
-  pcnt=`p.sh`
   echo $pcnt is not 2, wait 3 second
+  pcnt=`p.sh`
   sleep 3
 done
 
@@ -49,8 +49,8 @@ pcnt=`p.sh`
 echo $pcnt
 while [ $pcnt -ne 6 ]
 do
-  pcnt=`p.sh`
   echo $pcnt is not 6, wait 3 second
+  pcnt=`p.sh`
   sleep 3
 done
 
@@ -76,14 +76,14 @@ pcnt=`p.sh`
 echo $pcnt
 while [ $pcnt -ne 11 ]
 do
-  pcnt=`p.sh`
   echo $pcnt is not 11, wait 3 second
+  pcnt=`p.sh`
   sleep 3
 done
 
 
 # 부하검증 전 시스템 안정화
-sleep 60
+sleep 120
 
 # POD2 부하10 검증
 echo "====" >> $resultFile
