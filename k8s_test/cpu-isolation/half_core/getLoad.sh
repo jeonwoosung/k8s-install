@@ -7,4 +7,5 @@
 # done
 
 
+PID=`cat pid`
 top -b -n 5 -d 10.0 -p $PID |grep $PID
