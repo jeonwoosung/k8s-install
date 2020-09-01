@@ -3,8 +3,8 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: loadtest1_1core
-  name: loadtest1_1core
+    run: loadtest1-1core
+  name: loadtest1-1core
 spec:
   containers:
   - args:
