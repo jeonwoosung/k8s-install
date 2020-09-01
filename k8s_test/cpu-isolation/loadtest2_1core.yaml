@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: loadtest2
+  name: loadtest2
+spec:
+  containers:
+  - args:
+    - sleep
+    - 9999999999d
+    image: busybox
+    name: loadtest
+    resources:
+      limits:
+        cpu: "1"
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+  nodeName: worker01
+
+status: {}
