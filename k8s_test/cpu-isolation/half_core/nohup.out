@@ -3,212 +3,8 @@ Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
 Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
@@ -217,45 +13,11 @@ Terminated
 Terminated
 Terminated
 Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
@@ -266,88 +28,16 @@ kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future versi
 Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
 Terminated
 Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
 Terminated
 Terminated
 Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
@@ -360,72 +50,18 @@ kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future versi
 Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
 Terminated
 Terminated
-Terminated
-command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
 kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
 Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
 Terminated
 Terminated
 Terminated
 Terminated
 Terminated
-Terminated
-Terminated
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
-command terminated with exit code 143
 command terminated with exit code 143
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-kubectl exec [POD] [COMMAND] is DEPRECATED and will be removed in a future version. Use kubectl exec [POD] -- [COMMAND] instead.
-Unable to use a TTY - input is not a terminal or the right kind of file
-Terminated
-Terminated
-Terminated
-Terminated
 command terminated with exit code 143
 command terminated with exit code 143
 command terminated with exit code 143
