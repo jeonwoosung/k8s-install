@@ -12,7 +12,7 @@ getpid.sh > pid
 # POD1 단독부하 검증
 echo "====" > $resultFile
 echo Standalone >> $resultFile
-sleep 5ps -eaf |grep urandom |grep -v grep| wc -l  >> $resultFile
+ps -eaf |grep urandom |grep -v grep| wc -l  >> $resultFile
 echo "====" >> $resultFile
 getLoad.sh >> $resultFile
 
@@ -25,7 +25,7 @@ sleep 10
 # POD2 부하1 검증
 echo "====" >> $resultFile
 echo "Load Level1" >> $resultFile
-sleep 5ps -eaf |grep urandom |grep -v grep| wc -l  >> $resultFile
+ps -eaf |grep urandom |grep -v grep| wc -l  >> $resultFile
 echo "====" >> $resultFile
 getLoad.sh >> $resultFile
 
@@ -41,7 +41,7 @@ sleep 5
 # POD2 부하5 검증
 echo "====" >> $resultFile
 echo "Load Level5" >> $resultFile
-sleep 5ps -eaf |grep urandom |grep -v grep| wc -l  >> $resultFile
+ps -eaf |grep urandom |grep -v grep| wc -l  >> $resultFile
 echo "====" >> $resultFile
 getLoad.sh >> $resultFile
 
