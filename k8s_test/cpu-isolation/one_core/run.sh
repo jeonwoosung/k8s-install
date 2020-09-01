@@ -1,4 +1,4 @@
-resultFile=result_`date '+%Y%m%d%H%M%S'`.txt
+resultFile=result/result_`date '+%Y%m%d%H%M%S'`.txt
 
 # POD1 부하 생성
 l1.sh
