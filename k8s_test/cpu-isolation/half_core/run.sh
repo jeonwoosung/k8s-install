@@ -19,7 +19,7 @@ getLoad.sh >> $resultFile
 l2.sh
 
 # 부하검증 전 시스템 안정화
-sleep 5
+sleep 10
 
 # POD2 부하1 검증
 echo "====" >> $resultFile
@@ -48,6 +48,9 @@ l2.sh
 l2.sh
 l2.sh
 l2.sh
+
+# 부하검증 전 시스템 안정화
+sleep 5
 
 # POD2 부하10 검증
 echo "====" >> $resultFile
