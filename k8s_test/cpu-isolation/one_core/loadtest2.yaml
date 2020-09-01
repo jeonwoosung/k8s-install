@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     run: loadtest2-1core
-  name: loadtest2_1core
+  name: loadtest2-1core
 spec:
   containers:
   - args:
